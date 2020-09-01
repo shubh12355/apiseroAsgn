@@ -1,0 +1,62 @@
+Object oriented programming
+
+orientation->code
+
+  -Data has not given that much importance as compared to code.
+  -Uses local and global varibles. 
+  -Code has its data and methods in it which has no external access or 
+   external user cannot access it for that we have to define data members as private and member functions can be public.
+   -In member funtion we write our business logic.
+   -for eg:  member function-showdata,print funtn,, data members like emp_ID,salary etc...
+   
+As program is collection of different classes and methods and objects,so
+
+  -OBJECT: It is the instance of the class.
+  -CLASS : It is collection of objects.
+
+Creating object:
+emp e=new emp;
+
+OPPS concepts:
+Abstraction: Hiding implementation details or details which are not that much neccessary to know to 3rd party
+eg:ATM machine
+
+Encapsulation: Binding up the data and methods together in one module
+eg:real time eg can be capsule,laptop etc
+
+Inheritance: Using some part of code into another class for the code reusability 
+  -In inheritance we use extends keyword for including any class into another.
+  -Main class is known as parent/super/base class and the class which is extending funtionalities of main class is known 
+   as child/sub/derived class.
+   -Types of inheritance
+   1.simple
+   2.multilevel
+   3.multiple
+   4.hierarchy
+   5.hybrid
+   -Multiple inheritance is not supported by java coz it can cause ambiguity but by the use of interfaces we can acheive it.
+   
+Interface:
+  -Interface is nothing but blueprint of the class,which gives an idea about what will be the output of the code
+  -Basically what we want to expose to the outside world is coded into it.
+  eg:display method/print
+  
+Polymorphism:
+  Having multiple forms.
+  It has 2 types
+  1.overloading-same method name different parametrs within same class
+  2.overriding:same method name same parameters but in different class
+  
+JAVA has the compile time realation that means it gives error at compile time only if something is not done properly.
+  
+   
+  
+
+
+
+
+
+  
+  
+  
+
