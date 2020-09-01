@@ -1,0 +1,59 @@
+Object Oriented Programming(OOPs):
+  Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic.
+  An object can be defined as a data field that has unique attributes and behavior.
+  Ex:- Java, C++, C#
+  
+  Important definitions to be known in before going to the OOPs:
+    Object:- It is a basic unit of Object Oriented Programming and represents the real life entities.
+    Class:- A class is a user defined blueprint from which objects are created. It represents the set of properties or methods that are common to all objects of one type.
+    Method:- A method is a collection of statements that perform some specific task and return result to the caller.
+  
+  OOPs is based on the following principles:-
+  -> Abstraction:-
+      Data Abstraction is the property by virtue of which only the essential details are displayed to the user.
+      The the non-essentials units or the business logics are not displayed to the user.
+      In java we can achieve abstraction by using Interface.
+      One of the real-time example is a driver knows how to change gear in a car, but don't know what mechanism is going internally.
+    
+      Interface:-
+        Interface looks like a class but it is not a class.
+        An interface can have methods and variables just like the class but the methods declared in interface are by default abstract.
+        Also, the variables declared in an interface are public, static & final by default.
+    
+  -> Encapsulation:-
+      The implementation and state of each object are privately held inside a class.
+      Other objects do not have access to this class or the authority to make changes but are only able to call a list of public functions, or methods of that class.
+      This characteristic of data hiding provides greater program security and avoids unintended data corruption.
+    
+  -> Inheritance:-
+      Inheritance is an important principle of OOPs. It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
+      By this reuse mechanism is increased and code will be efficient. A Sub-Class can inherit the properties of Super-Class.
+      
+      Super-Class:-
+        The class whose features are inherited is known as superclass(or a base class or a parent class).
+        
+      Sub-Class:-
+        The class that inherits the other class is known as subclass(or a derived class, extended class, or child class).
+        In this we can add extra methods and variables other those of Super-Class.
+      
+  -> Polymorphism:-
+      Polymorphism is a concept by which we can perform a single action in different ways.
+      Objects can take on more than one form depending on the context.
+      
+      There are mainly two types of Polymorphism in Java:
+      
+        Overloading:-
+          Overloading allows different methods in different class to have the same name, but with different input parameters.
+          
+        Overriding:-
+          Overriding is a feature that allows a subclass to provide a specific implementation of a method that is already provided by one of its super-classes.
+          When a method in a subclass has the same name, same parameters, and same return type as a method in its super-class,
+          then the method in the subclass is said to override the method in the super-class.
+          
+  Source Code:- 
+    Source code is generally understood to mean programming statements that are created by a programmer with a programming tool and then saved in a file.
+  
+  Object Code:- 
+    Object code generally refers to the output, a compiled file, which is produced when the Source Code is compiled with a compiler.
+    The object code file contains a sequence of machine-readable instructions that is processed by the CPU in a computer.
+    
