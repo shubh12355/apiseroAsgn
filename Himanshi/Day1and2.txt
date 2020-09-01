@@ -1,0 +1,77 @@
+	# Day 1:
+	
+	1. Types of Applications :
+		• Rich Client (Thick Application )
+			- Complete installation on client's system.
+			- CPU,Memory,Storage is of client.
+			- Maintainabilityissues.
+			- Code distribution - Version upgrade issues.
+			- Depends on OS, Architecture.
+		• Thin Client  
+			- Browser + Network required.
+			- No need to install any application on client side device.
+			- No code distribution - No safety issues.
+			- Client OS doesn't matter.
+			- It follow a Round trip to responce and request from client machine to server.This round trip is expensive.
+			- Maintainable.
+	• Zoom if run on browser - Thin client ,if download and run - Thick client.
+		• Rich Internet Application (RIA)
+			- Intermediate between rich client and thin client application.
+			- Mostly, software at 2020 follows RIA.
+			- RIA stores data in cache memory.
+			- Ex : Gmail,Google search Engine etc.
+			
+	2. Different orientations :
+		• Procedure oriented
+			- C,Pascal
+			- We concentrate on flow of execution.
+		• Object Oriented 
+			- C++, Java
+			- Main concern is data and its safety from outside inference.
+		• Component oriented 
+			- Combination of classes and interfaces.
+			- ActiveX,RMI,EJB,Cobra
+		• Service Oriented 
+			- Loosely coupled-(we can change service provider anyday)
+			- Example : If we use google map API in our applications.
+			
+	3. Different types of Language :
+		• Scripting 
+			- Read one line  -> Interpret ->Read again -> Intrepret.
+		• Compiled 
+			- Convert entire code into output file.
+			- Example : Java->.class file
+			
+	# Day 2:
+
+	• Orientation :
+			- Data was  not given due importance.
+			- Too many code snippets can directly change data.
+			- Therefore , comes OOPS concept - Grouping , Classification.
+			- We save our data from outside interference.
+		 
+	• OOPS Concepts :
+		• Class
+			- Blueprint of an object.
+		• Object 
+			- Any entity that can have behaviour and attributes.
+			- Instance of an class.
+			- Emp e=new Emp();
+		• Encapsulation 
+			- Wrapping of data var and methods together.
+			- We protect our var from outside interference.(No modification of data from outside)
+			- Declaring var as private and using get/set method on it.
+			(Set method is converted into binary code first)
+		• Abstraction 
+			- Hiding of implementation details/Business logic from user and only showing the functionality.
+			- Example : when we pay using third party applications.
+			- Achieved using abstract classes and interface.
+		• Inheritance 
+			- One class can aquire all the properties-behavious and var of another class.
+			- Main use : when there are common var which need to be used again.
+			- Parent class- sub class hierarchy.
+		• Polymorphism 
+			- We can have more than one method with same name but different paramter/return type.
+			- Method overloading ,Method overriding.
+	• Java support mulitple inheritance through interface.
+	• Inheritance breaks Encapsulation.
