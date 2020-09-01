@@ -1,0 +1,28 @@
+Programming Fundamentals	
+	OOPS Concepts
+		Abstraction:
+		1. Hiding the implementation details/business logic from the user and 			
+		showing only the details essential for the user.
+		2. When using sort function, the actual implementation and logic is not 			
+		known, only the parameters to be sent and return type is known.
+		Encapsulation:
+		1. Bundling the data members and member function together. 
+		2. Data cannot be accessed directly, it can be accessed only through 				
+		methods(getters and setters).
+		3. Data members are declared as private, and corresponding member 				
+		functions are declared public. 
+		Inheritance:
+		1. Inheritance is used when we have common data member between the 			
+		classes.
+		2. For code reuse, directly create instance and revoke the method instead of 			
+		inheritance.
+		3. For using super class as the type, use interface instead of inheritance. In 			
+		java, interface supports multiple inheritance.
+		Polymorphism:
+		1. Poly - Multiple, morphism - forms. Member functions supporting many 			
+		forms.
+		2. When a method with same name and signature is in parent and child class, 			
+		and if the object of the child called is made and the method is revoked then 			
+		child class method overrides the parent class method.
+		3. Method with same name but different signatures is called method 				
+		overloading.
