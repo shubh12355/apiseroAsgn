@@ -1,0 +1,55 @@
+Day-2
+
+Programming Fundamentals:
+Oops Concepts:
+Orientation:
+- Data is not given due importance
+- Too many code snippets can directly change the data
+- The two options are Local variables and Global variables
+
+Grouping: Classification of information
+- To classify the section into small groups of information
+- No modifications of data from outside
+- All data members should be private
+- All public members should have access to the data
+
+Object:
+- Object orientation should be part of the language, code is not object oriented
+- Object -> Instance of your class
+- Object acts as the medium of communication between two classes
+- Object and class has different syntax
+
+Encapsulation:
+- It binds one or more instances into one entity
+Ex: Laptop, Tablet
+
+Abstraction: 
+- External person should know the business logic. It is hidden (Hiding the details from the external users, only outside information is displayed to the     external users)
+Ex: Google maps
+- Abstraction at various levels happens continuously
+- When dont have the body then it is Abstract method
+
+Inheritance:
+- Some things need to utilize from the property of the class
+- Use inheritance only if something is comman data members or methods
+- Super class - Sub class (or) Base class - derived class
+- Code reuse - Variables/Code
+			 - Data members/member functions
+- Type should be same (Interface declaration)
+
+Interface:
+- Interface gives the specifications that to be used in the code
+- Variables are not declared in interface
+
+Polymorphism:
+- Samething multiple forms (One name many forms)
+- Method taking multiple forms -> Method Overloading
+- Method Overriding
+
+1) Java supports multiple inheritance using interfaces:
+	- Fact: Java does not support multiple inheritance
+	- Fact: Class can implement interfaces
+	- Fact: Class can extends one class and implement many interfaces
+	
+2) Inheritance breaks Encapsulation:
+	- It could be true or false
