@@ -1,0 +1,17 @@
+Day 2 - Programming Fundamentals	
+OOPS Concepts
+  ---In OOPS we have everything surronded around objects as data is given most priority .Examples are Java ,C++
+Abstraction
+  --Abstraction refers to implementing design in such a way that the implementation details are hided.For Example In a car we know only that we need to push the pedal to apply the brakes 
+Encapsulation
+  --Encapsulation refers to binding data and member methods into a single unit.This is attained in java by getter and setter methods and declaring the data members as private
+    
+Inheritance
+  ---It refers to extension of a pre written class so as we can reuse the code.Another type of Inheritance is by Interface.There are basially 2 types of inheritnce Simple and Multiple
+      Other are extention of simple inheritance like MultiLevel,Hierarchial,Hybrid. Java directly doesnot support Multiple Inheritance but Multiple Interfaces can be implemented by a single class
+Polymorphism
+  --It refers to methods which can exist in many forms . This can be done by two ways either Method Overloading or Method Overriding.Overloading refers to same name of function in the same class bt different parameters
+  --Overriding refers to same method name bt at different inheritance level
+Source code Vs Object Code
+Naming Conventions
+Best Practices
