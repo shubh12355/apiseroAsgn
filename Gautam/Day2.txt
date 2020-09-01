@@ -1,1 +1,12 @@
+OOPS CONCEPTS
+Abstraction
+->Process of hiding certain details and showing only essential information to the user.
 
+Encapsulation
+->It is defined as wrapping up of data under a single unit.
+
+Inheritance
+->process in which one object acquires all the properties and behaviors of a parent object.
+
+Polymorphism
+->it is the ability of an object to take many forms.
