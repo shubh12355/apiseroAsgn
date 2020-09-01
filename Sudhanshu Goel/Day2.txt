@@ -1,0 +1,19 @@
+Programming Fundamentals 
+
+OOPS Concepts 
+
+1. Abstraction : It means only display the essential information or features and hide all the internal details from the user.
+                 Like for example : When we are driving the car and we press accelator then speed get increased but we don't 
+                 know the background process that is responsible for that action . This is called as Abstraction .
+
+2. Encapsulation : It refers to binding or wrapping the data into one single unit . Like in java we uses class to bind the 
+                   variables and method together and user can access those only by making object of that class.
+
+3. Inheritance : It refers to the property of using properties and methods of another class . We use it for code 
+                  resusage and basically have to make sure that type matches . There are various types of inheritance
+                   as Single ,Multilevel, Multiple and Hybrid . 
+
+4. Polymorphism : Poly means 'many' and morph means 'form ' so when one entity can have many forms at same point of time
+                  is known as Polymorphism.Here differnt objects can respond in different ways to the same message . 
+                  Like for example we have two methods with same name but different number of arguments Then it is said
+                  to be overloaded . There are Two Types Method Overloading and Method Overriding . 
