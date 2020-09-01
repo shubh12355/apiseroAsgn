@@ -1,0 +1,51 @@
+types of clients :
+Rich client : not depend on server
+it is use high Graphical user interfaces
+costly to deploy applications
+
+thin client:
+this clients are dependent on server (ex: login , pwd)
+handy and easy access.
+they are uses very limited local network capablities.
+
+RIA(rich in apllications) Browser and network:
+Rich+Thin clients
+these are usedi in shopping,trading
+
+Mobile Applications:
+OS / platform dependent
+dowload and install
+versions and patches.(Storage/ram/processing0
+good interface compared to thin client.
+offline/online /hybrid options.
+
+DIFFERENT ORIENTEDS:
+
+Procedure Oriented:
+procedures are following functionals. variables
+Very less inp to data.
+
+Object oriented:
+these oriented s are on members data, attributes,
+class ,method s
+procedured methods
+calling methods
+eg: java,c++
+
+Component oriented:
+logical applications,module.
+seperating on interface and implimentation
+eg :activex,dgom,rmi
+
+service Oriented:(soa)
+commonly reuses forservice interfaces
+gpay,phone pay
+
+Integration:
+both the comanies-interface not matching
+support more such companies
+application channges:
+fast modulations
+eg:think about new creativity in this modulations
+
+@venugopalreddy786
