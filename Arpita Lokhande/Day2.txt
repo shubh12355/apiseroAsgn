@@ -1,0 +1,53 @@
+Day 2 - Programming Fundamentals	
+OOPS Concepts
+
+-class can implement multiple interfaces.
+-class can extend a base class and multiple interfaces.
+
+Abstraction-->
+ -Data or function hiding
+ -user does not have knowledge of background processing
+ - eg. if function for calculator is written
+      add(a,b)
+       {
+        c=a+b
+	}
+------------------
+  and user calls the function add with numbers 1,2
+  int i=add(1,2). User will get value as 3 but he has no idea how it came.
+ -security can be achieved using abstraction.
+ 
+
+Encapsulation-->
+ -encapsulating data as one together.
+ -eg. Class. Class has data members and member functions together encapsulated.
+
+
+Inheritance-->
+ -used for two purposes -> 1. Reusability of code 2. Type -to be same(interface)
+ -types-simple,multiple,multilevel,hybrid,hierarchial.
+ -java does not support multiple inheritance.
+    1.due to ambiguity
+    2.also because java supports Compile time relationship and not run time relationship
+ -multiple inheritance can be done in java only if there are common data members.
+ -Inheritance can break encapsulation only in some cases. like declaring class members as protected.
+ -Interfaces are tightly coupled with classes. Functions declared in interface must be implemented by class.
+ -class implements interface
+ -class extends base class
+
+
+
+Polymorphism-->
+ -Poly-many,morph-forms
+ -multiple forms of function.
+ 1.method-overloading
+   -functions have same name but different parameter inputs.
+   -display(),display(int i)
+   -proper function gets called according to its parameter value.
+ 2.method-overriding
+   -functions with same name and same parameter inputs.
+   -depends on which object is calling, functions are called. 
+
+Source code Vs Object Code
+Naming Conventions
+Best Practices
