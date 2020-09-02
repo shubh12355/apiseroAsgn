@@ -1,0 +1,43 @@
+Day 2 - Programming Fundamentals	
+OOPS Concepts
+
+Abstraction
+-focus on what object does than how it is done.
+-User will know everything they need to know about the object without the background details or explaination.
+-Hiding the implementation details and showing only the essential details.
+-Ex.Atm machine,sort function of Arrays class.we know that we have to pass array to it and it will sort that array but we dont know how it is sorting it.
+
+Encapsulation
+-data and member functions are bind together and keep them safe from outside interference.
+-Ex: capsule, In class we can make all datamembers private and use getters and setters to access it.
+
+
+Inheritance
+-Using this object of one class inherits the proprties of another class.
+-Data members are common in two classes then inheritance is used.
+-Ex:base class inherit the properties of super class.
+-Inheritance can break encapsulation if class members are declared as protected.
+-Purpose :-
+	-maximum time for common data members not for reusability of code.
+	-type-interface(blueprint for class).
+		classes implements interface.
+ 
+
+Polymorphism
+-many form
+-Ex:one methode with different implementations.
+-polymorphism can be:
+	-compile time
+		-overloading of methods.
+		-binding is of overloaded methods is done at compiletime
+	-runtime
+		-overriding of methods.
+		-Ex: depending on whether the super or sub class if calling,methods are involked.
+
+
+ -Java supports multiple inheritance only if there are no common data members.other wise it will give ambiguity.
+
+
+
+Source code Vs Object Code
+Naming Conventions
