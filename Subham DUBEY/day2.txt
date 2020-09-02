@@ -26,4 +26,16 @@ OOPS CONCEPTS.
 -> Case study of Acme industries.
 
 -> Java supports multiple inheritance using interfaces.
+   Use Inheritance only when there is a common data member. Dont use for code reuse or type.
 -> Inheritance breaks encapsulation.
+   If we use private code then the encapsulation is not broken.
+   ex: class Emp {
+   private int emp no;
+   private int ename;
+   }
+   class fresher extends Emp {m1() {
+    empno=100;
+   }
+   Here if private is replaced by protected then the encapsulation is not broken.
+   
+   Java uses compile time relationship.
