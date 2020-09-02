@@ -1,1 +1,80 @@
+TYPE OF CLIENT APPLICATIONS:
 
+-> Rich Clients Application
+   * Those clients have complete software installed at their systems, also called 'Thick Clients'.
+   * Issues faced while handling a thick client is 'Code Distribution', 'Version' and 'maintainbility', in terms that 
+     its more extensive to deploy the built and more work to deploy as the built should be compatible with client 
+	 resources.
+   * operating system or architecture is tightly coupled.
+   
+-> Thin Client Application
+	* More of a developer specific application than client dependent, Easy to deploy as they require no extra or 
+	  specialized software installation.
+	* Reduced security threat
+	* Simple to handle.
+	* More downtime or Round Trips
+	* Needs to validate with the server after data capture.
+	
+-> Rich Internet Application (RIA)
+	* Intermediate application between Rich Client application and thin client application, neither too intesive 
+	  nor too extensive.
+	* (RIA) are Web-based applications that use only HTML, scripting language and HTTP (thin client feature) and
+	   has technology that provides better uptime (thick client feature).
+	   
+	   
+ORIENTATIONS: 
+
+	1) Procedural Orientation: Procedural Programming can be defined as a programming model which based upon the
+		concept of calling procedure during a program’s execution.
+		e.g.: Pascal and C
+	2) Object Orientation: A programming model which is based upon the concept of objects. Objects implement real 
+		world scenario for which the contain data in the form of attributes and code in the form of methods, which
+		corresponds to 'characterstics' and 'behaviour'.
+		e.g.: JavaScript, Java
+	3) Component Orientation: Component-oriented programming is a technique of developing software applications by
+		combining pre-existing and new components.
+		e.g.: Java through AWT & Swings
+	4) Service Orientation: Its an architectural approach in which applications make use of services available in 
+		the network
+		e.g: API, MicroServices
+		
+
+OOP TERMINOLOGY:
+
+	1) Class: A Class is a user defined data-type which has data members and member functions. Data members are the
+		data variables and member functions are the functions used to manipulate these variables and together these
+		data members and member functions defines the properties and behavior of the objects in a Class
+	2) Object: An object is an instance of a class.
+	3) Abstraction: Object-oriented programming, abstraction is a process of hiding the implementation details from
+		the user, only the functionality will be provided to the user. In other words, the user will have the 
+		information on what the object does instead of how it does it.
+	4) Encapsulation: Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data
+		(methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other
+		classes, and can be accessed only through the methods of their current class. Therefore, it is also known 
+		as data hiding.
+	5) Inheritane: Its a mechanism in which one object acquires all the properties and behaviors of a parent object,
+		you should inherit from an existing class so that you can reuse methods and fields of the parent class, 
+		inheritance just for the sake of code reuse must be discouraged.
+	6) Polymorphism: Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism
+		in OOP occurs when a parent class reference is used to refer to a child class object.
+		The parent and Child terminology is also stated as:
+			* Base-Sub Class
+			
+			
+CASE STUDY:
+	  Case Study on Upadation of pre-existing Employee Management System in order to understand OOP terminology better:
+		
+		* Acme needs a new system to allow employees to record time card information electronically and automatically
+		  generate paychecks based on the number of hours worked and total amount of sales (for commissioned employees).
+		  --> Abstraction
+		* Use of Attendance Card (that must be loosly coupled with System and Software) --> Inheritance
+		* There shall be need of a base class like employee and different classes like salaried & commissioned employees
+		  the should inherit from base class --> Inheritance.
+		* Need to calculte pays and perks of these employees through some common and different methodologies that should
+		  remain hidden. --> Polymorphism and Abstraction
+		* Auto generation of slips and transfer --> Polymorphism and Abstraction.
+		
+DISCOURSE:
+
+	1) Java supports multiple inheritance through interfaces.
+	2) Inheritance breaks Encapsulation.
