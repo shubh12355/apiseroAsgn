@@ -1,1 +1,33 @@
 
+-> grouping:classification
+-> orientation is part of code but not language
+1. CLASSIFICATION: Consists of class having data members and methods.Thay can be private ,public.
+object is instance of class 
+
+2. ABSTRACTION: It is an OOPS concept which hides the implementation details from the user.Suppose we have ATM machine user don't know how this machine works internally.In java we have abstract class for abstraction. We cannot create object of abstract class.
+
+3. ENCAPUSLATION :It provides single unit by wrapping up the data and methods.One unit  canonot access directly to aother unit. Example we have sales deptmnt and account dprtmnt in college so account dptmnt can't access sales dptmnt directly.
+
+4. INHERITENCE: One class(derived) inherit the features of another class(base).
+		1. code reusability
+		2. Type to be same(by interface)
+    
+->  Java does not support multiple inheritance
+	Class can implement interfaces
+	Class can extends one class and implement many interfaces
+  So to avoid ambiguity java donot support multiple inheritance
+  also as java supports Compile time relationship and avoid run time relationships.
+
+-> Inheritance breaks Encapsulation
+  50% true
+  
+  
+5. POLYMORPHISM : On thing in multiple forms
+
+Method overloading and Method over riding
+
+5: INTERFACE: It contains all the common methods declaration only.Any class can implements interface and define those methods.Interface provides the common functionality.
+  
+
+    
+    
