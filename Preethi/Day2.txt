@@ -1,1 +1,33 @@
+Day 2 - Programming Fundamentals	
+OOPS Concepts
+	1)Abstraction: Hiding the business logic from the user.
+		       Providing only necessary information.
+		       Loose coupling 
+		       can be achieved by using interfaces and abstract classes
+
+	2)Encapsulation: Binding data menbers with member functions of a class into single unit.
+			 Making data members in a class as private, then providing access to them via public methods. 
+		         Keeps the data and code safe within the class itself.
+		 	 
+	3)Inheritance: Inheriting features
+		       A base class inherits the features of parent class
+		       Types: Single, Multilevel,
+		       ** Class can extend only one class and can implements many interfaces **
+		       Multiple Inheritance:
+				Java doesn't support extending multiple classes because if both classes have same method then compiler can't make a decision to execute which class method
+				But multiple inheritance can be achieved through interfaces but not 100%
+				-> Implementing multiple interfaces can give multiple inheritance to certain level
+					 --> the definition of same methods is provided by implementing class not the interfaces, so no ambiguity  
+		       - To have common data members among multiple classes
+		       - Code Reusability
+		       - Type
+
+
+	4)Polymorphism: Poly -> many and Morph -> form
+			Doing a task in many waya
+			Method overloading and Method overriding
+
+Source code Vs Object Code
+Naming Conventions
+Best Practices
 
