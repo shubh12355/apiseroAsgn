@@ -24,7 +24,7 @@ OOPS Concepts
 
 
 	4)Polymorphism: Poly -> many and Morph -> form
-			Doing a task in many waya
+			Doing a same task in different ways
 			Method overloading and Method overriding
 
 Source code Vs Object Code
