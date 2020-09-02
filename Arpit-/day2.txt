@@ -1,1 +1,45 @@
+Computer Fundamentals
 
+Types of Clients
+
+ 1.Rich Client(Thick client) - Complete Installation of the software on the client's system . Uses CPU , Memory and overhead services . Its basically as per client expectation and codes are distributive in nature Whereas it also focuses on version,maintainability and operating system When installed on client's side.
+    ex :-mobile application.
+
+2.Thin Client - All we need is a browser and functioning network , code distribution isn't required , hence code is safe , it's simple to handle versioning/maintainability and
+OS is not taken into consideraion.The only issue e have here is Round Trip (The Server and client are constantly communicating ).
+ex :-google meet call.
+
+3.Rich Internet Application (RIA) - Intermediate solution from rich to thin client . Caches important services and data so that the communication between server and client is reduced.We can say its basically client side data with no round trip that's help in better communication.
+    ex:-Gmail With 10 unread emails (downloaded on client side).
+
+Different Types of Orientation in Programming Languages:-
+
+1.Procedure Oriented - Depends upon flow of execution . ex:-C,pascal etc.
+2.Object Oriented - Data is most crucial entity and data is wrapped with methods , we concentrate on one thing at a time. ex:-java.
+3.Component Oriented - Combination of classes and interfaces.
+4.Service Oriented - Where services are offered by top vendors and can be changed as per requirement.ex:-search engines,cloud computing concept.
+
+Different Types of language:-
+
+1)Compiling :- read the file at one go.
+2)Scripting:- read the line of code one by one.
+
+Programming Fundamentals:-
+
+Object:- Instance of class.
+Class:- Template or design that helps us know about the data type,methods and it's behaviour in the respective program.
+
+OOPS Concept :-
+
+ 1)Abstraction :- Hiding implementation.
+
+2)Encapsulation:- Hiding Data.
+
+3)Inheritance :-Mechanism to derive one class from another class.
+Super class:- from where subclass is derived.
+Sub class:-extended/specialized version of Super class.
+
+4)Polymorphism :- multiple reference to same object/multiple object to same reference .
+(poly):-many , (morphism):-form .
+
+INTERFACE :- we cannot not instantiate whereas we can have methods inside it from java 8 with the help of static and default keyword.
