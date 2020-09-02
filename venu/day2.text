@@ -1,0 +1,40 @@
+  OOPS Concepts    :   The primary purpose of object-oriented programming is to increase 
+           the flexibility and maintainability of programs. Object oriented programming brings 
+           together data and its behaviour(methods) in a single location(object) 
+           makes it easier to understand how a program works. 
+
+ 1. Abstraction: Abstraction is shows a process of relevant data and hiding unnecessary object of user details.
+               eg: in the bank accout when we are login it ask userid and password
+			     hows it get abstract data from server
+
+   2.Encapsulation: the encaps known as data hiding,
+                    the data can only access by the public methods and 
+                   the private   fields and their implementation outside the class via public
+                    eg: class EncapsulationDemo{
+					                     private string empname;
+						                    private int eno;
+					                      	private int esal;
+   
+   3.Inheritance  :     inheritance is a process of new class based on existing class 
+                         eg: A-->B ,A is existing class or parent,super, B is child or subclass.
+						 eg: class A extends class B{
+						 }
+						 there are inheritance types:
+						 ->single inheritance
+						 ->multilevel
+						 -multiple : here child has two parents java doesnt support multiple
+						 ->hybrid
+
+
+   4.Polymorphism :   polymorphism means poly-many and phism means single or one to many 
+                         these are two types 1. static 
+						                       2.dynamic.
+					  ->its a overriding program 
+					  EG: we have a absract class animal,class method has animal sound()
+					   public absract class Animal{
+					   public absract void animalsound();
+					                               }
+
+Source code Vs Object Code:
+                      ->source code is input to the compiler of language in which is it written.
+					  ->object codde is executable file for instructions to compiler in binary code
