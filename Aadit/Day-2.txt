@@ -1,0 +1,24 @@
+OOP:
+		Abstraction:
+		1. Hiding the core lofic form end user and only provding the essential details.
+		2. You dont come to know how the particular method is being executed except for the arguments and the return type of the dunction. 
+    3. Done for data security. 
+		Encapsulation:
+		1. Binding of the variables and methods in a class
+		2. To access data, need special methods to retrieve and use it. The way it is done is different in various languages but the logic remains the same. 
+		3. Encapsulation is needed to keep the reusability and mantainibility of code. 
+		Inheritance:
+		1. Inheritance is used when we have common data member between the 			
+		classes.
+		2. For code reuse, directly create instance and revoke the method instead of 			
+		inheritance.
+		3. For using super class as the type, use interface instead of inheritance. In 			
+		java, interface supports multiple inheritance.
+		Polymorphism:
+		1. Poly - Multiple, morphism - forms. Member functions supporting many 			
+		forms.
+		2. When a method with same name and signature is in parent and child class, 			
+		and if the object of the child called is made and the method is revoked then 			
+		child class method overrides the parent class method.
+		3. Method with same name but different signatures is called method 				
+		overloading.
