@@ -1,0 +1,78 @@
+         ---------------------------------------PROGRAMMING FUNDAMENTALS---------------------------------------------------
+  
+OBJECT-ORIENTED PROGRAMMING(OOP):programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions 
+				and logic.  An object can be defined as a data field that has unique attributes and behavior.
+	Data to be given more importance, 
+	avoid modification from outside methods and functions
+	local variables should be private
+	only the member functions should be able to access the variables.
+
+class-  holds its own data members and member functions, which can be accessed and used by creating an instance of that class.
+object- instances of classes
+method- behaviour
+
+
+							________________________OOPS CONCEPTS:_____________________________
+
+
+
+ABSTRACTION:    hidding background/ internal implementation details from the user.
+		in java Abstraction can be achieved with either abstract classes or interfaces.
+		 eg: Washing Machine
+
+ENCAPSULATION:  mechanism of grouping/wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+		eg: Tablets.
+
+INHERITANCE: one class inherit the features(data and/or methods) of another class. there should be some common data (variables or functions)
+		two main moto :
+		1. code reusability
+		2. Type to be same(by interface)
+
+base class-> the class whose properties are being inherited.
+sub class/ derived class--> which inherit the property from derived class.
+Different types:
+simple,multiple,hierarchial,multilevel,hybrid
+ 
+
+               ***************java does not support multiple inheritance but through********************
+Facts:  Java does not support multiple inheritance
+	Class can implement interfaces
+	Class can extends one class and implement many interfaces
+So to avoid ambiguity java donot support multiple inheritance
+also as java supports Compile time relationship and avoid run time relationships.
+
+            ********************************Inheritance breaks Encapsulation*********************
+partially true and partially false.
+
+
+
+POLYMORPHISM:
+ 		-Poly-many, morph-forms
+		Polymorphism is the ability of an object to take on many forms.
+IN JAVA acheived by 2 ways:
+ 
+1.method-overloading
+  different methods in different class to have the same name, but with different input parameters.
+ eg, print(), print(int a), print(int a, int b)
+   .
+ 2.method-overriding
+   -functions with same name and same parameter inputs can be within the same or derived class.
+  
+
+
+
+
+
+
+
+		 
+
+			
+	
+
+
+
+
+
+
+ 
