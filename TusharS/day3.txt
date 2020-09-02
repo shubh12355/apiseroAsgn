@@ -1,0 +1,84 @@
+Day 3
+
+Discussed about language 
+Java being ranked 2nd for many years.
+	.java<--javac->Bytecode(.class)<-->BinaryCode(Machine)
+	Mixed mode:Compiled+interpreted
+	Compile time exceptions
+	Java 7,8,9,10
+	Java 8 functional programming
+	JDK versions Java SE8 is a commmercial implementation by Oracle
+Compiler (JDK)-1.8
+	RunTime (JRE) - > 1.8
+	Install JDK = JDK+JRE
+libraries are under bin folder.
+Object Oriented
+class Test{}//execution code must remain inside class.
+class Demo1{
+	public static void main(String a[]){
+	System.out.println("ddd"); 
+	}
+}
+Classes -> Grouping (Package <--> Folder hierarchy)
+java.lang,.util,.sql-->JavaSE
+javax.-->JavaEE
+org.spring.
+import java.lang.System;//everything  comes from here
+//Filename and public class name must be same
+package xyz;
+public class Cal{public int add(int i,int j){
+return i+j;}}
+//Cal.java
+javac -s. calc.java//source file
+-d.//destination
+//mapping package name to directory structure
+
+class Demo1{
+	public static void main(String a[]){
+	Cal c= new Cal();
+	int ans=add(10,20);
+	System.out.println("ans"+ ans); 
+	}
+}
+//Demo1.java
+//javac Demo1.java
+//java Demo1
+//Activity for calulator uploaded in:  "https://github.com/TusharrS/apisero-assignment-activities"
+
+//oracle documentation for Datatypes: "(https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+"
+//Scanner class 
+
+//Activity: "https://github.com/TusharrS/apisero-assignment-activities"
+
+//sysout CTRL+Space 
+//Scanner  CTRL+Space//to import library
+//Java Naming conventions from oracle documenttion
+//Right cllck ->Source ->Format 
+//avg. of 5 numbers
+int[] arr=new int[5];//integer array
+Arrays.toString(arr[]) function
+//.length//function for int array
+//arr of str and avg. length of name
+
+//to String --> "ClassName@HashCode "
+//@Override method
+//getter-setter
+//print(int i,int i){
+	System.out.print(+i+""+j);
+i+=10;
+j+=10;
+Print
+}
+
+//call by value and call by reference
+//Exercisesbased on getter,setter,constructor
+//access modifiers scope
+//inheritance together with access modifiers
+//Overriding in classes
+
+
+
+
+
+
