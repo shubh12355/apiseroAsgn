@@ -21,6 +21,7 @@ OOPS Concepts
 		       - To have common data members among multiple classes
 		       - Code Reusability
 		       - Type
+		       - Tight coupling (Base class depends on super class)
 
 
 	4)Polymorphism: Poly -> many and Morph -> form
