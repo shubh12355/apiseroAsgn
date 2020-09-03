@@ -1,0 +1,336 @@
+######## DAY 3 ##########
+#-Learned about the java language 
+a)Java 8
+      ->Compilers(JDK - java development kit )we were using jdk 1.8 also known as java 8
+      ->Runtime Enviornment (JRE - Java Runtime Enviornment)
+b)Package
+      -Learned what is package and how it is differnt from a java class 
+      -Package is noting but we can say is a seperate collection of classes within a java project
+      -There can be any no of packages within a java project
+      ex package deptasgn;
+c)Java  predefined libraries
+      -Java api documatation contains lots of predefined libraries we have to just use them
+      -In order to use any library in our own java project we need import them in exixting working projct using import statement.
+      ex- import java.util, import java.sql,import java.util.scanner
+      -Created a small program implementing  java.util.Scanner library to scan a number and say even or odd, a fibonacci series,to find Avarage Program
+      Code:-
+            1)Even odd program
+          
+            import java.util.Scanner
+            public class Lab2 {
+
+                public static void main(String[] args) {
+                  System.out.println("Enter number");
+                  Scanner scanner = new Scanner(System.in);
+                  int no1 = scanner.nextInt();
+
+                  if ((no1 % 2) == 0) {
+                    System.out.println( no1 + " is Even ");
+                  } else {
+                    System.out.println(no1 + " is Odd");
+                  }
+                  scanner.close();
+                }
+              }
+              
+            2)Avarage of numbers program
+            import java.util.Scanner;
+
+              public class Lab3 {
+
+                public static void main(String[] args) {
+                  int sum = 0;
+                  Scanner scanner = new Scanner(System.in);
+
+                  for (int i = 0; i< 5;i++){
+                    System.out.println("Enter number");
+                    int no1 = scanner.nextInt();
+                    System.out.println(" User entered " + no1);
+                    //sum = sum + no1;
+                    sum += no1;
+                  }
+                  System.out.println("Sum = " + sum);
+                  System.out.println("Average = " + sum/5);
+                  scanner.close();
+                }
+              }
+              
+d)Arrays
+      -Learned how to work with arrays of integer type
+      -Entered elements in arraay
+      -Print elements from array
+      
+      Code:
+              import java.util.Arrays;
+              import java.util.List;
+              import java.util.Scanner;
+
+              public class Lab4 {
+
+                public static void main(String[] args) {
+                  Scanner scanner = new Scanner(System.in);
+                  int[] arr = new int[5]; 
+                  for (int i = 0; i< 5;i++){
+                    System.out.println("Enter number");
+                    arr[i]= scanner.nextInt();
+                    System.out.println(" User entered " + arr[i]);
+                  }
+                  scanner.close();
+                  System.out.println(Arrays.toString(arr));
+
+                  for (int i = 0; i< arr.length;i++){
+
+                    System.out.println(  "[" + i + "] =" + arr[i]);
+                  }
+                }
+              }
+      
+ e)Getters and Setters
+      -Learned how getters and settes are implemented
+     -setter method is used to set the values to variable, most of the time the data variable will be  priavte using instance of class i.e objet
+      -getter methoad is used to fetch the data from a particular variable using instance of class i.e objet
+       
+ f)Access MOdifiers
+   
+     1. Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+     2. Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package.
+         If you do not specify any access level, it will be the default.
+     3. Protected: The access level of a protected modifier is within the package and outside the package through child class.
+        If you do not make the child class, it cannot be accessed from outside the package.
+     4. Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class,
+        within the package and outside the package.
+    There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc. Here,
+    we are going to learn the access modifiers only
+
+
+
+
+######## DAY 4 ##########   
+a)Revision or overview of languages
+b)Oral test on the day 1 ,day 2 and day 3. 
+c)Mcq based test on Basic concepts till now
+
+d)Interfaces
+        An interface in the Java programming language is an abstract type that is used to specify a behavior that classes must implement.
+        They are similar to protocols. Interfaces are declared using the interface keyword, and may only contain method signature and 
+        constant declarations (variable declarations that are declared to be both static and final). All methods of an Interface do not
+        contain implementation (method bodies) as of all versions below Java 8
+        
+d)Abstract classes
+      An interface in the Java programming language is an abstract type that is used to specify a behavior that classes must implement. 
+      They are similar to protocols. Interfaces are declared using the interface keyword, and may only contain method signature and constant 
+      declarations (variable declarations that are declared to be both static and final). All methods of an Interface do not contain implementation 
+      (method bodies) as of all versions below Java 8
+
+e)Abstract Methods
+      1. Abstract methods don’t have body, they just have method signature as shown above.
+      2. If a class has an abstract method it should be declared abstract, the vice versa is not true, which means an abstract class doesn’
+          need to have an abstract method compulsory.
+      3. If a regular class extends an abstract class, then the class must have to implement all the abstract methods of abstract parent class or 
+          it has to be declared abstract as well.
+          
+f)Final Keyword
+      1) Java final variable
+          If you make any variable as final, you cannot change the value of final variable(It will be constant).
+      2)  Final Method
+          If you make any method as final, you cannot override it.
+      3) Java final class
+          If you make any class as final, you cannot extend ,(inhert) it.
+          
+g)Exception handling i java          
+        The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that normal flow of the application can be maintained
+    Advantages
+          The core advantage of exception handling is to maintain the normal flow of the application. An exception normally disrupts the normal flow of the application
+          that is why we use exception handling.
+          Suppose there are 10 statements in your program and there occurs an exception at statement 5, the rest of the code will not be executed
+          i.e. statement 6 to 10 will not be executed. If we perform exception handling, the rest of the statement will be executed.
+          That is why we use exception handling in Java.
+    Types of exceptions in java
+        There are mainly two types of exceptions: checked and unchecked. Here, an error is considered as the unchecked exception. According to Oracle, 
+        there are three types of exceptions:
+         1. Checked Exception
+         2. Unchecked Exception
+         3. Error
+    Code Example :--
+          public class JavaExceptionExample{  
+            public static void main(String args[]){  
+             try{  
+                //code that may raise exception  
+                int data=100/0;  
+             }catch(ArithmeticException e){System.out.println(e);}  
+             //rest code of the program   
+             System.out.println("rest of the code...");  
+            }  
+          }
+         
+      
+
+
+e)Get Started with collections
+
+        The collections framework is a unified architecture for representing and manipulating collections, enabling them to be manipulated independently of the details of 
+        their representation. It reduces programming effort while increasing performance. It enables interoperability among unrelated APIs, reduces effort in designing and 
+        learning new APIs, and fosters software reuse. The framework is based on more than a dozen collection interfaces. It includes implementations of these interfaces and
+        algorithms to manipulate them
+
+
+        The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+        Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
+        Java Collection means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes
+        (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+          
+         *A Collection represents a single unit of objects, i.e., a group.
+         *It provides readymade architecture.
+         *It represents a set of classes and interfaces.
+         *It is optional.
+         
+         The Collection framework represents a unified architecture for storing and manipulating a group of objects. It has:
+
+           1.Interfaces and its implementations, i.e., classes
+           2.Algorithm
+           
+          A)List
+            java.util.ArrayList
+            Interface List<E>
+            Type Parameters:
+            E - the type of elements in this list
+            All Superinterfaces:
+            Collection<E>, Iterable<E>
+            All Known Implementing Classes:
+            AbstractList, AbstractSequentialList, ArrayList, AttributeList, CopyOnWriteArrayList, LinkedList, RoleList, RoleUnresolvedList, Stack, Vector
+            1)Arraylist
+                
+                // Java program to demonstrate the 
+                // working of ArrayList in Java 
+
+                import java.io.*; 
+                import java.util.*; 
+
+                class ArrayListExample { 
+                  public static void main(String[] args) 
+                  { 
+                    // Size of the 
+                    // ArrayList 
+                    int n = 5; 
+
+                    // Declaring the ArrayList with 
+                    // initial size n 
+                    ArrayList<Integer> arrli = new ArrayList<Integer>(n); 
+
+                    // Appending new elements at 
+                    // the end of the list 
+                    for (int i = 1; i <= n; i++) 
+                      arrli.add(i); 
+
+                    // Printing elements 
+                    System.out.println(arrli); 
+
+                    // Remove element at index 3 
+                    arrli.remove(3); 
+
+                    // Displaying the ArrayList 
+                    // after deletion 
+                    System.out.println(arrli); 
+
+                    // Printing elements one by one 
+                    for (int i = 0; i < arrli.size(); i++) 
+                      System.out.print(arrli.get(i) + " "); 
+                  } 
+                } 
+
+            
+            
+          B)Sets
+                The set interface present in the java.util package and extends the Collection interface is an unordered collection of objects in which duplicate 
+                values cannot be stored. It is an interface which implements the mathematical set. This interface contains the methods inherited from the Collection
+                interface and adds a feature which restricts the insertion of the duplicate elements. There are two interfaces which extend the set implementation
+                namely SortedSet and NavigableSet.
+                import java.util.*;
+                  public class SetDemo {
+
+                    public static void main(String args[]) { 
+                        int count[] = {34, 22,10,60,30,22};
+                        Set<Integer> set = new HashSet<Integer>();
+                        try {
+                           for(int i = 0; i < 5; i++) {
+                              set.add(count[i]);
+                           }
+                           System.out.println(set);
+
+                           TreeSet sortedSet = new TreeSet<Integer>(set);
+                           System.out.println("The sorted list is:");
+                           System.out.println(sortedSet);
+
+                           System.out.println("The First element of the set is: "+ (Integer)sortedSet.first());
+                           System.out.println("The last element of the set is: "+ (Integer)sortedSet.last());
+                        }
+                        catch(Exception e) {}
+                     }
+                  } 
+                  Output
+                        [34, 22, 10, 60, 30]
+                        The sorted list is:
+                        [10, 22, 30, 34, 60]
+                        The First element of the set is: 10
+                        The last element of the set is: 60
+
+              C)Maps
+                    A map contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry. A Map contains unique keys.
+
+                    A Map is useful if you have to search, update or delete elements on the basis of a key.
+                    //Non-generic  
+                      import java.util.*;  
+                      public class MapExample1 {  
+                      public static void main(String[] args) {  
+                          Map map=new HashMap();  
+                          //Adding elements to map  
+                          map.put(1,"Amit");  
+                          map.put(5,"Rahul");  
+                          map.put(2,"Jai");  
+                          map.put(6,"Amit");  
+                          //Traversing Map  
+                          Set set=map.entrySet();//Converting to Set so that we can traverse  
+                          Iterator itr=set.iterator();  
+                          while(itr.hasNext()){  
+                              //Converting to Map.Entry so that we can get key and value separately  
+                              Map.Entry entry=(Map.Entry)itr.next();  
+                              System.out.println(entry.getKey()+" "+entry.getValue());  
+                          }  
+                      }  
+                      }  
+           
+              output:
+                      1 Amit
+                      2 Jai
+                      5 Rahul
+                      6 Amit
+                      
+               import java.util.*;  
+                class MapExample2{  
+                 public static void main(String args[]){  
+                  Map<Integer,String> map=new HashMap<Integer,String>();  
+                  map.put(100,"Amit");  
+                  map.put(101,"Vijay");  
+                  map.put(102,"Rahul");  
+                  //Elements can traverse in any order  
+                  for(Map.Entry m:map.entrySet()){  
+                   System.out.println(m.getKey()+" "+m.getValue());  
+                  }  
+                 }  
+                }
+         output:
+                102 Rahul
+                100 Amit
+                101 Vijay
+                
+                
+                
+f)Threads
+        A thread is actually a lightweight process. Unlike many other computer languages, Java provides built-in support for multithreaded programming.
+        A multithreaded program contains two or more parts that can run concurrently. Each part of such a program is called thread and each thread defines
+        a separate path of execution
+
+
+      
+      
+     
