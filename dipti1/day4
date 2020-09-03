@@ -1,0 +1,52 @@
+Static Methods:
+  -Static methods/class/var  uses common memory space of program.
+  -There is no need to create object for static class/method.
+  
+Abstract class:
+  -We cannot create a object of abstract class,but we can inherit it within other class.
+  -A abstract class can have both normal as well as abstract methods.
+  -But if we declare method as abstract then that class should be abstract class.
+  -If we dont want to define method then we acn make that method as abstract but whenever we call that method
+    in another class we have to define it.
+  -Abstract method do not have any body.
+  -Also we can give static calls to abstract method.
+  
+Final:
+  -Final class cannot be inherited,but instance can be created.
+  -if a class is final, it cannot be inherited or extended by sub classes /derived class.
+  -Final method cannot be override.
+  
+  Exception Handling:
+     -TRY,CATCH,AND FINALLY BLOCK.
+     -If we feel some particular block of code can give error then we can put that part of code in try block and catch block handles it.
+     -Some particular block of code need to have executed by default then we can put it into finally.
+     
+   Collection Framework:
+    -This framework is used for standerdization of code and its storage,also speedup the process and reduce the code.
+    -can perform different operations on it like insert,delete,update etc.
+    -Collection framework includes interfaces,implementation and different algorithms.
+    -Different collection frameworks interfaces are list,map etc. 
+    -We cannot create object of it but we can create arraylist,linklist associated with it.
+    
+  Thread:
+    -predefined class of java
+    -handles execution of programs alternatively  
+    -speedup the process.
+    
+  Features of java:
+    -Platform independent
+    -portable
+    -multithreaded
+    -allows dynamic programming
+    
+  Limitations:
+      -due to inheritance,encapsulation code code develops tight coupling in between the class and methods.
+      -Also due to it dependency increases.
+      -due to all dependency it will become soo hectic for any new person to change anything in that code.(if requirements changes)
+      
+    New concepts:
+    collection framework:map,list etc and its operations.
+    threading mechanism.
+    Practical knowlege has increased.
+      
+ 
