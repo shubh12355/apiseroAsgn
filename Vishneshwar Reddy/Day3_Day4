@@ -1,0 +1,242 @@
+Java Fundamentals:
+
+ Java is a Object Oriented programming languagewhich can either compiled or interpreted, used to develop Standalone applications and Web applets.
+ Java platform consists of Java virtual machine (JVM) responsible for hardware abstraction, and a set of libraries that gives Java a rich foundation.
+ Java tools include the Java compiler as well as various other helper applications that are used for day-to-day development.
+ The most important factor to choose Java is its portability. It can be easily moved from one platform to other platform.
+ Execution in Java program involves two steps:
+	- Compiling source code into Bytecode using javac comp
+	- Executing the Bytecode program using Java interpreter
+
+  Some of the other important features of Java are:
+	  - Robust and Secure - It has a strict compile time and run time checking for data types. Also it is a garbage collected language.
+	  - Distributed Language - This means it has ability to share both data and programs.
+	  - Simple and Small - Java does not use pointers, prepocessor header files, goto statement and others. 
+	  - Multithreaded - Java handles multiple handling tasks simultaneously.
+	  - Extensible - Java also supports functions written in other languages such as c and c++. These are called as native methods.
+
+Naming Conventions:
+	- Classes and Interfaces:-
+		Class names should be nouns, in mixed case with the first letter of each internal word capitalised. Interfaces name should also be capitalised just like class names.
+			Ex:- interface Cars
+				 class TataMotors implements Cars
+				 
+	- Methods:-
+		Methods should be verbs, in mixed case with the first letter lowercase and with the first letter of each internal word capitalised.
+			Ex:- void changeGear(int newValue);
+				 void speedUp(int increment);
+
+	- Variables:-
+		Variable names should be short and understandable. Variables can also start with either underscore(‘_’) or dollar sign ‘$’ characters.
+		One character variables are not a best practice except in the case of temporary variables.
+		Constant variables are given in upper case with use of undersocre to separate words
+			Ex:- int speed = 55;
+				 int gear = 4;
+				 int SEATING_CAPACITY = 5; //Constant Variable
+	- Comments:-
+		Java permits both the single-line comments and multi-line comments.
+		Single line comments begin with // and end at the end of the line.
+		for longer comments, we can create long multi-line comments by starting with a /* and ending with */.
+	
+Java Library:
+	
+	The Java standard library (or API) includes hundreds of classes and methods grouped into several functional packages.
+	We have to import these into our class to use these library classes and methods.
+	Ex:- Language Support Package - java.language
+		 Utilities Package - java.util
+				 
+Some important definitions in java:
+
+	- Object:-
+		Object is the instance of the class.
+		
+	- Class:-
+		Classes are the primary and essential elements of a Java program. These classes are used to map the objects of real-world problems.
+		
+	- Constructor:-
+		Constructor looks like a method but it is in fact not a method. It’s name is same as class name and it does not return any value.
+		
+	- Interface:-
+		An interface is like a class but includes a group of method declarations. This section is used only if there is a need to implement the multiple inheritance feature.
+		
+	- Main method:-
+		Every Java standalone program requires a main method as its starting point.
+		A simple Java program may contain only this part.
+		The main method creates objects of various classes and establishes communications between them.
+		On reaching the end of main, the program terminates and the control passes back to the operating system.
+		
+Primitive data types:
+	
+	The Java programming language is statically-typed, which means that all variables must first be declared before they can be used.
+	Different types of primitive data types include:-
+		byte(0), short(0), int(0), long(0L), float(0.0f), double(0.0d), boolean(false), char('\u0000'), String(null)
+		
+Non-Primitive/Derived:-
+
+	Classes, Interfaces, Arrays
+	
+Type Casting:-
+
+	We often encounter situations where there is a need to store a value of one type into a variable of another type.
+	Casting into smaller type can result in a loss of data.
+	Allowed type castings in java are as follows:
+		From byte To short, char, int, long, float, double
+		From short To int, long, float, double
+		From char To int, long, float, double
+		From int To long, float, double
+		From long To float, double
+		From float To double
+		
+Keywords:
+	
+	They implement specific features of the languages. Java has reserved 60 words as keywords. Since keywords have specific meaning, we can not use them as names for variables.
+		Ex:- abstract, boolean, byte, case, catch, char, class, static, super,......
+		
+Implementing Java Program:
+
+	Implementation of a Java application program involves a series of steps. They include
+	
+ 		Creating the program:-
+			The program must be saved with Java extension. This file is called as source file. All Java source files will have extension as “java”.
+			If a program contains multiple classes, the file name must be the classname of the class containing the main method or the public class.
+			
+		Compiling the program:-
+			To compile the program, we must run the Java compiler javac, with the name of the source file on the command line.
+			Ex:- javac Test.java
+			
+		Running the program:-
+			We need to use the Java interpreter to run a stand-alone program. At the command prompt, type
+			Ex:- java Test
+		
+Sample program in Java:
+	
+	I/p:-
+	
+	class Sampleone //Class Declaration
+	{
+		public static void main(String args[]) //The main line, the execution starts here.
+		{
+			System.out.println(“Hello World !”); //Output Line
+		}
+	}
+	
+	O/p:-
+	
+		Hello World //Output after execution of the program
+		
+Example of using libraries:
+	
+	I/p:-
+	
+	import java.lang.Math;
+	class SquareRoot
+	{
+		public static void main(String args[])
+		{
+			double x = 5;
+			double y ;
+			y = Math.sqrt(x);
+			System.out.println("Y = " +y);
+		}
+	}
+	
+	O/p:-
+		
+		Y = 2.23606						 
+			 
+Using of Abstract class:
+
+	- We can not use abstract classes to instantiate object directly. for example
+	- The abstract methods of an abstract class must be defined in its subclass.
+	- We can not declare abstract constructors or abstract static methods.
+		
+		abstract class Shape
+		{
+			………………….
+			………………….
+			abstract void draw ( );
+			…………………
+			…………………
+		}
+		
+Access Modifiers:
+
+	- Public: Any variable or method is visible to the entire class in which it defined
+	- Protected: Protected modifier makes the fields visible not only to all classes and subclasses of one package but also to subclass in other packages.
+	- Private: Private fields enjoys the highest degree of protection. They are accessible only within their own class.
+			   They can not be inherited by subclass and therefore not accessible in subclasses.
+	If no access modifier is defined to the class, then the members defaults to limited public accessibility level of access. In this case members are visible only in that package.
+	
+Exception Handling:
+	
+	This is used to put the necessary statements which we know may cause error in try bloack and add a catch block which throws the exception of that particular statement.
+	
+	try
+	{
+		statements; //generates exception
+	}
+	catch(Exception-type e)
+	{
+	statements; //handles exception
+	}
+	
+Arrays:
+
+	- An array is a container object that holds a fixed number of values of a single type. The length of an array is declared at the time of creation.
+	- The length of the array is fixed, and can't be changed at runtime.
+	- It’s very fast to access any elements in an array, the time taken to access both first element and last element in an array is same.
+	- An array of primitives stores values of the primitives.
+	- An array of objects stores only the references to the objects.
+	- An array itself is actually an object.
+		Ex:- int[] studentMarks = new int[6]; // allocates memory for 10 integers
+			 studentMarks[0] = 100; // initialize second element
+			 studentMarks[1] = 90;
+			 studentMarks[2] = 85;
+			 studentMarks[3] = 77;
+			 studentMarks[4] = 88;
+			 studentMarks[5] = 99;
+	- Lenght of an array is given by using the fucntion arrayName.lenght, it returns a integer value.
+	
+Wrapper Class:
+	
+	Vectors can not handle primitive data types like int, float, long, char and double.
+	Primitive data types must be converted into object types by using wrapper classes contained in java.lang package.
+	Below are the simple data types and their corresponding wrapper class types:
+		boolean - Boolean
+		char - Character
+		double - Double
+		float - Float
+		int - Integer
+		long - Long
+		
+Defining Interfaces:
+	
+	The syntax of defining interface is very similar to defining a class. The general form is:
+	
+	interface InterfaceName
+	{
+		variables declaration;
+		methods declaration;
+	}
+	
+Extending Interfaces:
+	
+	Like classes, interface can also be extended. That is, an interface can be subinterfaced from other interfaces.
+	The new subinterface will inherit all the members of the superinterface in manner similar to subclasses.
+	This is achieved using keyword extends as follows:
+	
+	interface name2 extends name1
+	{
+		body of name2
+	}
+	
+Implementing Interface:
+
+	Interfaces are used as “superclasses” whose properties are inherited by classes.
+	It is therefore necessary to create a class that inherits the given interface.
+	This is done as follows:
+	
+	class classname implements Interfacename
+	{
+		body of classname
+	}
