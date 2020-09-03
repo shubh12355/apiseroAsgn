@@ -1,1 +1,33 @@
-
+Features of Java 
+->Compiled and Interpreted
+   Java is both compiled and interpreted programming language.
+->Platform Independent
+  Java is Platform independent langauage and hence java programs can be run on any system.
+ ->Multithreaded
+  Multithreaded refers to handling multiple tasks simultaneously.Java supports multithreaded programs.
+->Object-Oriented
+  Java is a true object oriented language.All program code and data reside within objects and classes.
+  
+  
+ Inheritance
+  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.In java main class is known as 'Super class' and derived class is known as 'Sub class'.
+  
+Abstract class
+  ->Abstract class in java is a class which is declared using abstract keyword.
+  ->An abstract class cannot be instantiated.
+  ->It can have abstract as well as non abstract methods.
+  
+Final class
+    ->When  a class is declared with final keyword it is called final class.
+    ->A final class cannot be inherited.
+    ->Object of final class can be created.
+ 
+Interface 
+  ->An interface is similar to class.
+  ->It is a collection of abstract methods.
+  
+ Exception Handling
+  ->Exception is handled in java using try catch block.
+  ->Try statement is used to define a block of code to be tested for errors.
+  ->Catch statement allows to define a block of code to be executed if any error occurs in try block.
+  
