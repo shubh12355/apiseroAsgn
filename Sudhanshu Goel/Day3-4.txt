@@ -1,0 +1,46 @@
+1. Features of Java 
+
+Java is pure object oriented lanaguage as it concerned and give atmost imporatance to data rather than code. 
+
+Java is the easiest language to code and has many pre-defined libraries and function also .
+
+It is platform independent as different JRE on each platform can make the runtime enviornment and we can run the java .class files
+
+
+2. Inheritance 
+
+	Abstract: Is used when we don't want to instantiate the object of any class then we simply declare it with abstract and the 
+                  class that extends the Abstarct Class have to override the abstarct methods declare in the base class.
+
+       Interface: In the interface we declare those which we want each class that implements it should provide the definition 
+                  . in this we can't declare any variables. we use Implements Keyword to implement the interface in the class  
+
+      Final : This has three usage . 
+               1. If a class is final than we can't inherit that class into any sub class 
+               2. if a method is final then we can't override it in the derived class 
+               3. If any variable is is final then we can't change it's value as it menas it a const variable 
+
+3. Collection API
+
+We have learn List ,ArrayList ,Set and Map in this API 
+
+In List and ArrayList we can add any numbers of items and don't have to say the size beforehand.
+
+Set is ainterface and used to store elements without any duplicates allowed . There are many time of Set HashSet ,TreeSet ( It stored the 
+data in ascending order . 
+
+Similarly we have Map and it contains data in Key Value Pair . In the Map we should have unique Keys corresponding to each value and here also
+ duplicacy is not allowed and each key can have atmost one value init .
+
+4. Thread
+
+Thread is a class and are used by Java to run different programs concurrently . To do So we need to override the run() method in 
+the class that extends Thread class and In main we execute the Thread by Calling start() method . 
+
+5. Exception Handling 
+
+There are many kinds of exception that might occur when we run the program Like for example Divide By zero , ArryOutOfBoundException, NullPointerException and many More 
+So Java Uses try ... catch block to handle the exception and if we want any code to execute independent of excpetion occurence then we put that code in Finally block .
+
+
+
