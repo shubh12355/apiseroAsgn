@@ -1,6 +1,9 @@
-main method
-ask user to give input by using scanner
-use loop
-  Fibonacci series
-  arrays.to.string conersion- it will simply convert arrays to string and output will display in array format only according to index number
+Programming Concepts:
+  - Fibonacci series
+  - arrays.to.string conersion- it will simply convert arrays to string and output will display in array format only according to index number.
+  -Use of JDK,JRE and JVM
+  - Libraries like util,lang,sql,javax(open java) etc and its use 
+  - Naming conventions of classes and methods
   
+Array:Array is collection of similar data types and it stores values in sequentionally but we can access it randomly.
+Array allows dynamic size allocation.
