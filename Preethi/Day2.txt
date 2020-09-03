@@ -15,12 +15,12 @@ OOPS Concepts
 		       ** Class can extend only one class and can implements many interfaces **
 		       Multiple Inheritance:
 				Java doesn't support extending multiple classes because if both classes have same method then compiler can't make a decision to execute which class method
-				But multiple inheritance can be achieved through interfaces but not 100%
+				But multiple inheritance can be achieved through interfaces but not 100% because interface doesn't provide code reusability 
 				-> Implementing multiple interfaces can give multiple inheritance to certain level
 					 --> the definition of same methods is provided by implementing class not the interfaces, so no ambiguity  
 		       - To have common data members among multiple classes
 		       - Code Reusability
-		       - Type
+		       - Type (Interface)
 		       - Tight coupling (Base class depends on super class)
 
 
