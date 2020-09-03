@@ -1,0 +1,89 @@
+Java-
+-Source code->Compiler(javac)-> .class (Byte code) -> java -> Machine code.
+-java allows maximum compile time exceptions.
+-java 8 is used for functional programming.
+-Provides various classes and default keywords and libraries.
+-Platform independent.
+-JRE is required on the platforms to run the byte code.
+
+Naming Conventions in Java
+-Class name should start with Capital letter.
+-file name should be same as Public class name.
+-libraries -> java.util,java.lang,java.sql, etc
+
+-Java Abstract, Final.
+Abstract Class->
+-Abstract classes used for 1. Inheritance 2. Static
+-Cannot create instance of Abstract class.
+-Can create derived class from Abstract Class.
+Abstract Method->
+-Abstract method should be declared in Abstract class only.
+
+Final Class->
+-Can create instance of Abstract class.
+-Cannot create derived class from Abstract Class.
+Final Method->
+-Final method cannot be overridden in derived class.
+
+Interface in java->
+-One Interface can extend another interface.
+-Interfaces are just like pure abstract class.No data variables, no actual methods but only abstract methods.
+-While implementating interface for a class-> Use interface as new Implementation class
+-Interface i =new ImplementationClass()
+
+Constructors in Java->
+-If constructor is not mentioned, java creates default constructor.
+-For inheritance, java initiates constructor of base class first and then derived class constructor.
+-Constructors used for Object Initialization.
+
+Access Modifiers in Java->
+-Public, Private, Protected.
+
+Exception Handling in java->
+-Try block contains the code which may cause exception.
+-Catch block catches the exception occured in try 
+catch(Exception e)
+{
+throw e;
+}
+and throws it to client with Exception message. throw e.
+-finally is a block in Java, it executes anyway.
+-examples-> IndexOutOfBoundException, ArithmeticException,NullPointerException, etc.
+
+Collection Frameworks in Java->
+-Combination of interface, implementation and Algorithms.
+-can be set, list and map.
+
+-List is collection items and can be created using library java.util.ArrayList.
+-List<String> list = new ArrayList<>();
+
+-For set, there are many classes such as HashSet, TreeSet.
+-HashSet->
+  1.There are no duplications
+  2.Has no ordering or can say has hash function ordering
+  3.Set<Integer> h1  = new HashSet<>();
+-TreeSet->
+  1. There are no duplications
+  2. has proper ordering, elements are sorted.
+  3.Set<Integer> h1  = new TreeSet<>();
+
+-Map is something which comes with Key Value Pair.
+-For map, there are classes like HashMap, TreeMap
+-HashMap->
+    1.Map<String,Integer> map =new HashMap<>();
+    2. Has functions such as put,remove,get.
+-TreeMap->
+    1.Map<String,Integer> map =new TreeMap<>();
+    2. Has functions such as put,remove,get.
+
+-MultiThreading in java->
+-Multithreading is spliting work task into threads assigning each with equal amount of time.
+-implemented by extending Thread class.
+-Have to override run() method.
+-In main method have to create object of thread and can call start() method.
+
+
+
+
+
+
