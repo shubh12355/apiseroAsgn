@@ -240,3 +240,35 @@ Implementing Interface:
 	{
 		body of classname
 	}
+
+Collections:
+
+	A Collection represents a single unit of objects, i.e., a group.
+	
+	List:-
+		This interface is dedicated to the data of the list type in which we can store all the ordered collection of the objects.
+		This also allows duplicate data to be present in it.
+		This list interface is implemented by various classes like ArrayList, LinkedList, Stack, etc.
+		Ex:- List <T> al = new ArrayList<> ();
+			 List <T> ll = new LinkedList<> ();
+			 Where T is the type of the object
+			 
+	Set:-
+		A set is an unordered collection of objects in which duplicate values cannot be stored.
+		This collection is used when we wish to avoid the duplication of the objects and wish to store only the unique objects.
+		This set interface is implemented by various classes like HashSet, TreeSet, LinkedHashSet, etc.
+		Ex:- Set<T> hs = new HashSet<> ();
+			 Set<T> lhs = new LinkedHashSet<> ();
+			 Set<T> ts = new TreeSet<> ();
+			 Where T is the type of the object.
+			 
+	Map:-
+		A map is a data structure which supports the key-value pair mapping for the data.
+		This interface doesn’t support duplicate keys because the same key cannot have multiple mappings.
+		A map is useful if there is a data and we wish to perform operations on the basis of the key.
+		This map interface is implemented by various classes like HashMap, TreeMap, SortedMap, etc.
+		Ex:- Map<T> hm = new HashMap<> ();
+			 Map<T> tm = new TreeMap<> ();
+			 Map<T> sm = new SortedMap<> ();
+			 Where T is the type of the object.
+			 
