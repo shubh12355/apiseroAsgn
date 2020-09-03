@@ -1,0 +1,18 @@
+Revision
+abstract class
+abstract keyword
+- for inheritance .. for static 
+- can contain normal and abstract methods as well
+- cannot create instance of tht class
+
+abstract method ..its class should be abstract.
+// when do we use 'inherit'//
+
+
+***final***
+syntax restriction
+- cannot be derived, cannot over ride its methods
+-can create instance of class
+
+
+// cannot ccreate instance of an interface
