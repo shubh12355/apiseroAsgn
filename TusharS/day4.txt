@@ -1,0 +1,59 @@
+Day4
+
+Overview of Day3
+Class -> abstract class
+ 	create a class -> 1. Inheritance 2. Static
+ 	Can't create instance of class
+	Can be extended
+	Can contain normal and abstract method.
+
+2. Class as Final
+   Create a class  --> 1. only use it
+   Can create instance of that class
+   Can't be used as parent class
+   Final method cannot be overriden
+
+One java class can't extend mutiple java classes
+
+3. Interfaces 
+   Implementing interface and restrictions based on instantation.
+   Pure abstrct class
+   no actual methods,variables,only abstract methods
+   implemnts interface
+   write code for all interface methods
+
+4. Exception Handeling --try..catch..
+5. Wrapper Class
+-----------------------------------
+6. Collection Framework
+--> As a interface
+	List:Collection of items,no unique check .no ordering
+	Set
+	Map
+java.util.ArrayList//for new ArrayList();
+  	convert int to Integer in ArrrayList//Boxing
+	TreeSet for ordering in ascending order and to remove duplicacy
+	HashSet:No ordering but removes duplicacy
+	//Worked with LinkedList and ArraList,HasSet and TreeSet
+
+Key Value (Directory)
+Map: TreeMap,HashMap
+
+
+Set<Integer> l1 =new HashSet<Integer>();
+			l1.add(2);
+			l1.add(12);
+			l1.add(2);
+			System.out.println(l1);
+			
+			Map<String,Integer> mp = new TreeMap<String,Integer>();
+			mp.put("Ram", 100);
+			mp.put("Shyam", 1000);
+			mp.put("Ram", 10);
+			System.out.println(mp);
+
+
+------------------------------------------------
+---------------------------------------------
+7. Threads 
+Multi threaded execution
