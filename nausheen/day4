@@ -31,6 +31,42 @@ try .. the exceptions
 catch .. the program thaht we want to execute
 finally.. if catch fails then finally 
 ------------------
+array -sequential (contagious)storage
+
+///////////////////////////////////////////////////////collection framework://///////////////////////////////////////////////
+->store data and for standardization
+*****************************************************************************************************************************************
+-> list:collection of items, mo unique check , no ordering ( based on adiition)
+list is an interface.. so cant create
+
+we can go for array list, linked list
+
+list: insertion order
+
+hash set :  no insertion order, hashing order.. for mor no of elements(huge amount of data)
+no duplication
+
+
+tree set : no duplication, ascending order *** for limited no of elements to be implemented
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Introduction to Collections
 A collection — sometimes called a container — is simply an object that groups multiple elements into a single unit. 
 
