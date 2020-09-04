@@ -1,6 +1,6 @@
 Day 3, Day 4   -  OOP(Core Java)	
 
-Java Fundamentals – Quick View
+Java Fundamentals
 
 -> Java is platform-independent
 -> javac to get .class file
@@ -28,6 +28,11 @@ PACKAGE:
  STATIC:
 -> Shared among all the instances of the class
 -> Memory allocation happens only once when the class is loaded in the memory.
+
+Exception Handling:
+-> Try-catch block
+-> Try for possible errors that might occur
+-> Catch executed if error in the try block
 
 ARRAY
 -> Same datatype
@@ -80,3 +85,5 @@ HashMap:
 
 THREADS:
 -> Concurrent execution of two or more parts of a program
+-> By extending the Thread class
+-> By implementing the Runnable Interface
