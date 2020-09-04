@@ -11,7 +11,7 @@ Java is faster than other traditional interpreted programming languages because 
 Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand.
 
  Inheritance
-  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.The class which is inherted by other is known as 'Super class' and derived class is known as 'Sub class'.
+  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.The class which is inherted by other is known as 'parent class' and derived class is known as 'Sub class'.
 
 Abstract class
   ->Abstract class in java is a class which is declared using abstract keyword.
@@ -43,9 +43,10 @@ ARRAYLIST
 ⦁	 Ordering/sorting(FCFS)
 List<String> list = new ArrayList<>();
 	list.add("AA");
-	list.remove(1);
+	list.add("BB");
+	list.remove(0);
 	System.out.println(list);
-	list.set(1,"22222222222");
+	list.set(2,"NN");
 	System.out.println(list);
 
 HashSet 
