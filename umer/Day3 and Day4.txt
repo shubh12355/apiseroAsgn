@@ -1,0 +1,136 @@
+      - Activex, Com/Dcom, RMI, EJB
+ -> OOPS concepts
+   -> Encapsulation - wrapping data and methods as a single unit.
+   -> Abstraction - Hiding the implementation details and only providing essentails functionality to the user.
+   -> Inheritance - Inheriting properties from class.
+     - Comman data members
+     - Code resuse
+     - Type
+     
+        class Emp1 extends Emp
+              {
+          
+              }
+     - Single inheritance
+     - Multiple inheritance
+     - Multi level inheritance
+
+   -> Interface - Contains abstract methods 
+      -> class which implements the Interface must define all its methods.
+      -> A class can implement many interfaces but can only extend one class.
+      
+          Interface Emp{
+
+             public void print();
+           }
+          class Emp1 implements Emp
+           {
+          
+             public void print()
+              {
+                 // definition
+              }
+           } 
+    -> Polymorphism   
+      - one thing , many forms.
+      - method overloading 
+        -depending on the context changes form.
+      - method overriding 
+        - in inheritance 
+    -> abstract class
+      - Instance cannot be created
+      - can contain abstract methods as well as normal methods
+        
+        abstract class Demo{
+           public void print()
+            {
+              System.out.println("hello");
+            }
+
+           public void f1();        
+
+           }  
+      - we can have abstract methods in only abstract class.
+
+    -> static methods
+      - associated with class
+      - can be invoked without creating instance(object) of class.
+      - can access only static members of class.
+      - cannot be overriden but can be overloaded.
+        public static void f1()
+         {
+
+         }
+
+    -> Final keyword
+      - To apply restrictions on class, variables , methods.
+      - final class cannot be extended.
+      - final method cannot be overriden.
+
+    -> Constructor
+      - instialize the data members
+      - if we dont create a constructor java automatically defines a default constructor.
+      - if we create a parameterised constructor in class then also create the default construtor.
+    
+    -> Arrays
+     - contiguous alloaction
+     - we must define size at the time of declaration.
+     - size cannot be dynamically changed.
+       int[] arr=new int[5]; //array of 5 int elements
+    
+    -> Wrapper classes
+     - wrap the primitive data types into object.
+     - boxing
+     - unboxing
+      String s="100';
+      int i=Interger.parseInt(s);
+    
+    -> Exception handling 
+      - try 
+      - catch
+      - finally
+      - throw
+    -> Collections 
+      - object that groups multiple elements in a single unit.
+      - used to store, retrieve, manipulate data
+     -> collection framework contains 
+       - Interfaces
+       - Implementations
+       - Algorithms
+     -> List(interface)
+       -> ArrayList (class) implements List
+        - ordered collection
+        - can contain duplicate values
+       -> linkedList
+
+         List <Integer> l1 = new ArrayList<> ();
+         List <Integer> l2 = new LinkedList<> ();
+			
+     -> Set( interface)
+       -> Hashset
+        - Hash table
+        - no duplicate values
+        - elements not ordered
+       -> Treeset
+        - sorted data
+        - no duplicate values
+
+         Set<Integer> s= new HashSet<> ();
+	 Set<String> hs = new LinkedHashSet<> ();
+	 Set<Integer> ts = new TreeSet<> ();
+
+     -> Map(interface)
+       -treeMap
+       -hashMap
+        -store key value pairs
+       
+         Map<String,Integer> m=new TreeMap<>();
+            map.put("umer",10);
+            map.get("umer");
+
+     -> Multi Threading
+         
+       
+   
+
+               
