@@ -1,0 +1,77 @@
+	# Day 3 :
+	
+	• Latest java SE 8 - oracle commercial support available.
+	• Java 8
+		Compiler - JDK-1.8
+		Runtime -JRE -> 1.8
+		All the libraries come in bin folder.
+		Any execution cant come outside class.
+		Set path to bin .
+		
+	• In java
+		Everything should be given as library (println)-short and concise.
+		Classes -> (Grouping) Package (all the packages should be mapped)
+				(collection of classes)          -> Java SE
+				 java.subcategory.
+				 javax.                           -> Java EE
+				Org.spring.
+		System - libtrary for input/output. 
+			   - everything from java.lang is imported 
+		Filename and public class name should be same.
+	• Eclipse -> workspace
+			Create java project 
+				-> new class ->Lab1 (in main -> System.out.println("hw");
+				-> Run (Console- >output)
+				
+				-> create a new class Calc
+					int add(int i, int j){}
+				-> call calc from add from lab1
+	• Data types
+	short a=00;
+	System.out.println(a);
+	int b=327885;
+	System.out.println(b);
+	boolean c=true;
+	System.out.println(c);*/
+	• Array implementation :
+			 Create a array of 5 Strings(Accept from user).
+				//Find out average length of names and print names and then sum of lengths + average 
+			Scanner scan=new Scanner(System.in);
+			int n=scan.nextInt();
+			String [] arr=new String[n];
+			for(int i=0;i<n;i++)
+				arr[i]=scan.next();
+			System.out.println(Arrays.toString(arr));
+			System.out.println("length of array is "+arr.length);
+			
+			int[] lengtharr=new int[n];
+			int sum=0;
+			
+			for(int i=0;i<n;i++){
+				lengtharr[i]=arr[i].length();
+				sum=sum+lengtharr[i];
+			System.out.println("length of "+arr[i]+" is "+lengtharr[i]);
+			}
+			
+			int avg=sum/lengtharr.length;
+			System.out.print("avg is"+avg);
+			}
+	• Object array  implementation - In eclipse
+	• Value passing mechanism - Java always passes by value copy.
+	• Object array implementation 
+	Assgn : Create a class Dept
+	{
+		private int deptno,String dname,String loc;
+		+ getters/setter
+		+ toString}
+		
+	Class DeptManager
+	{	private Dept[] = 5 items
+		modify(int i, Dept d){dept[i]= d}
+		print(){for loop to print array}
+		main(){
+		create a instance of Deptmanager
+		invoke modify for 0,2,3,4
+		print 	
+		}
+}
