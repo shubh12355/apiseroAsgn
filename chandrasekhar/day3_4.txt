@@ -1,46 +1,46 @@
-Features of Java 
+--------------Features of Java----------- 
 ->Platform Independent
   Java is Platform independent langauage as it uses jvm and jre environment and hence java programs can be run on any system.
  ->Multithreaded
   Multithreaded refers to handling multiple tasks simultaneously.Java supports multithreaded programs.
-->Object-Oriented
- Object-oriented programming (OOPs) is a methodology that simplifies software development and maintenance by providing some rules.
+ ->Object-Oriented
+  Object-oriented programming (OOPs) is a methodology that simplifies software development and maintenance by providing some rules.
  ->High-performance
-Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. 
-->Dynamic
-Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand.
+  Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. 
+ ->Dynamic
+  Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand.
 
- Inheritance
-  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.The class which is inherted by other is known as 'parent class' and derived class is known as 'Sub class'.
+-----------Inheritance----------
+  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.The class which is inherted by other is known as 'parent class'       and derived class is known as 'Sub class'.
 
-Abstract class
+----------Abstract class----------
   ->Abstract class in java is a class which is declared using abstract keyword.
   ->An abstract class cannot be instantiated.
   ->It can have abstract as well as non abstract methods.
   ->It can be inherited
 
-Final class/method/variable
+-----------Final class/method/variable----------
     ->When  a class is declared with final keyword it is called final class.
     ->A final class cannot be inherited.
     ->Object of final class can be created.
     ->method that is final cannot be overrided.
     ->final variables are said to be constant and those cannot be changed in value.
 
-Interface 
+---------------Interface--------- 
   ->An interface is similar to class.
   ->It is a collection of abstract methods.
   ->It helps to achieve multiple inheritance in java.
 
- Exception Handling
+ ----------------Exception Handling--------
   ->Exception is handled in java using try catch block.
   ->Try statement is used to define a block of code to be tested for errors.
   ->Catch statement allows to define a block of code to be executed if any error occurs in try block.
   
- Collection Framework
-ARRAYLIST
-⦁	Collection of items
-⦁	Duplicates excepted
-⦁	 Ordering/sorting(FCFS)
+ -------------Collection Framework----------
+ArrayList
+	->Collection of items
+	->Duplicates excepted
+	 ->Ordering/sorting(FCFS)
 List<String> list = new ArrayList<>();
 	list.add("AA");
 	list.add("BB");
@@ -50,27 +50,27 @@ List<String> list = new ArrayList<>();
 	System.out.println(list);
 
 HashSet 
-⦁	Collection of items that uses a hash table for storage
-⦁	No Duplicates excepted
-⦁	Ordering/sorting OF Elements internally
-HashSet<String> cars = new HashSet<String>();
-    cars.add("Volvo");
-    cars.add("BMW");
-    System.out.println(cars);
+	->Collection of items that uses a hash table for storage
+	->No Duplicates excepted
+	->Ordering/sorting OF Elements internally
+        HashSet<String> cars = new HashSet<String>();
+           cars.add("Volvo");
+           cars.add("BMW");
+           System.out.println(cars);
     
 HashMap
-⦁	Store items in key/value  pairs, and you can access them by an index of another type String.
-⦁	No Duplicates excepted
-⦁	Ordering/sorting OF Elements internally
-HashMap<String, String> capitalCities = new HashMap<String, String>();
-    // Add keys and values (Country, City)
-    capitalCities.put("England", "London");
-    capitalCities.put("Germany", "Berlin");
-    capitalCities.put("Norway", "Oslo");
-    capitalCities.put("USA", "Washington DC");
-    System.out.println(capitalCities);
+	->Store items in key/value  pairs, and you can access them by an index of another type String.
+	->No Duplicates excepted
+        ->Ordering/sorting OF Elements internally
+	HashMap<String, String> capitalCities = new HashMap<String, String>();
+    		// Add keys and values (Country, City)
+    		capitalCities.put("England", "London");
+    		capitalCities.put("Germany", "Berlin");
+    		capitalCities.put("Norway", "Oslo");
+    		capitalCities.put("USA", "Washington DC");
+    		System.out.println(capitalCities);
    
- MultiThearding 
+ --------------MultiThearding---------- 
  Multithreading in Java is a process of executing multiple threads simultaneously.
 A thread is a lightweight sub-process, the smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
 
