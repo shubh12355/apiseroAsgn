@@ -1,0 +1,65 @@
+Java Features
+	Platform Independent
+	  --> Java compiler generates byte code(.class) which cane executed on all systems using JRE associated with system.
+  	  --> JRE converts byte code to corresponding machine understandable code
+	Secure
+	  --> Java doesn't support pointers which can manipulate memory.
+	OOPS
+	 --> Inheritance: 
+		Code reusability, Type (Interface), To share some data members and methods
+		No support for multiple inheritance (interface supports for multoile inheritance)
+	 --> Abstraction: Hiding complexity
+	 --> Encapsulation: Binding data members and methods, prevents outside access of ata members
+	 --> Polymorphism: 
+		Method overloading: Multiple methods in a class with same method name and different method signature(No.of parameters, its type)
+		Method overriding: Done in inheritance same method signature of a method both in super and sub class 
+	Abstract
+	 --> Abstract class: 
+		A class which has 0 or more abstract methods
+		Can't be instantiated because it is an incomplete thing so compiler prevents instantiation to such incompleted things
+		Class inheriting abstract class must provide implementation of abstract methods or else it must be specified as abstract class
+	 --> Abstract Method: 
+		Has no definition
+		Must be implemented in inherited class
+	Final
+	 --> Final class: Can't be inherited
+	 --> Final method: Can't be overriden
+	 => When we don't want certain functionality to be modified by other objects, we go for final class or methods
+	 ** A class/method can't be final and abstract at the same time **
+	Interface
+	 --> Only method declarations (abtract methods) and static final data members 
+	 --> A class can implement multiple interfaces and an interface can extend multiple interfaces
+	Collection API
+	 --> An interface of collection of objects
+	 --> Every collection has interface --> List, Set, Dequeue, Queue, Map
+				  implementations --> concrete implementations of the collection interfaces
+				  Algorithms --> search, sort
+		List --> ArrayList: Follows insertion order, random accessibility based on index
+		Set --> TreeSet and Hashset: Prevents duplications, No insertion order, internally follows an order for insertion
+					     Doesn't support addition of element at a particular index due to internal ordering
+					     TreeSet stores data in sorted order
+					     Random accessibility based on index
+		Map --> HashMap and TreeMap: Key value pairs, random accessibility based on keys
+	Multithreading
+	 --> Java supports multithreading
+	 --> Helps in multitasking
+	 --> Threads share time so increase in no.of threads slows the execution process
+	 --> Class extends thread interface, run method, start methods creates thread
+	Constructor
+	 --> Initializes object
+	 --> parametric and default
+	 --> By default internally a class has default constructor 
+	 --> Derived class invokes super class constructor by default	
+	 --> Can be overloaded and can't be overriden
+	Access modifiers
+	 --> Controls accessibility of data members and methods
+	 --> Public: provides accessibility across all classes of same or different packages
+	 --> Private: Accessible only in the same class
+	 --> Protected: Accessible across all classes(derived and other classes) of same package and sub class of different package
+	 --> Default: When no access modifier is specified it is consideered as default
+		      Accessible only in same package classes(derived and other classes)
+	Exception handling
+	 --> Java supports exception handling using try catch block
+	 --> Try contains code that may throw exceptions and catch contains steps to handle it
+	 --> A single catch block is sufficient to handle multiple exceptions
+	 --> Throws keyword is used to send back exceptions to client
