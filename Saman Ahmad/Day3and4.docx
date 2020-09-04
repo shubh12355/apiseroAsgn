@@ -1,0 +1,160 @@
+--------------------------------DAY 3 & 4--------------------------------------
+
+FUNDAMENTALS JAVA
+ 
+Compiler(JDK)-1.8 (OS/ Architecture Dependent)
+Runtime (JRE)
+Pure object Oriented Language
+not so many keywords rather maximum library provided to programmers.
+Platform Independent
+Program first compiled by a compiler i.e source code->.class file(Byte code)
+Byte code can be executed on any platform provided it has JRE installed in it.⦁	
+Byte code is finally interpreted by JVM to convert into machine code.
+
+Package
+Classes grouped into packages.
+Package should follow the folder hierarchy
+Instead of new functions , syntax==>> New package/library
+
+Java.lang, java.util--->> packages(JAVA Standard Edition, SE). 
+Javax.  --> Java Enterprise Edition EE.
+
+
+Java 8 (Oracle supported)API Documentation should be referred for any function, class, library, interface or language related syntax, keywords etc.
+ 
+ we need import library  in our project using import statement.
+      Eg. import java.util, import java.sql,
+Java.lang.System  --> No need to import, everything Ithis auto imported.
+
+Compilation and running of a Java program via cmd.
+
+Eclipse:
+ Same file - any number of class.
+  Ctrl+space--> auto import of respective libraries.
+  
+Naming Conventions:
+Class name should start with Capital letter.
+file name should be same as Public class name.
+method name- start with small letter(camel case syntax)
+Variables same as type of the variable in small case .
+
+
+javac -s. calc.java--> source file
+javac -d.calc.java---> crete folder first then .java(destination).
+
+
+Every class extend frpm object class.
+Array.toString [1,3,3,5,7] convert array to string
+String str=Array.toString [1,3,3,5,7] 
+
+Null pointer Exception 
+In Java, a special null value can be assigned to an object reference. NullPointerException is thrown when an application attempts to use an object reference that has the null value
+
+
+Getter Setter funtion
+ Getters and setters are used to protect data
+ getter method returns its value while a setter method sets or updates its value
+
+ACCESS MODIFIERS
+    
+	Same class	Subclass within package	Not a subclass	Sublass in diff package	Different package
+
+-Default	YES	YES	YES	NO	NO
+-Private	YES	NO	YES	NO	NO
+Protected	YES	YES	YES	YES	NO
+-Publlic	YES	YES	YES	YES	YES
+
+
+
+@Override
+ overriding of methods 
+
+Abstract classes
+Cannot create instance of Abstract class.
+Can not be used in inheritance.
+
+Abstract Method donot have defination, is called in subclass 
+Abstract method should be declared in Abstract class only.
+
+
+Final Class
+Can create instance of Abstract class.
+Cannot create derived class from Abstract Class.
+
+
+Final Method
+cannot be overridden in subclass.
+
+One Java Class cannot extend multiple Java classes.
+
+Interface 
+ pure abstraction.
+One Interface can extend one or more interfaces.
+Contains no data variables, no method defination but only abstract methods.
+
+Constructors
+Java creates default constructor for every class.
+java initiates constructor of base class first and then of derived class constructor.
+2 TYPES : Default, Parametrised
+Constructors used for Object Initialization.
+
+Array	
+collection of same datatypes
+ its length is fixed and need to be stated at the time of creation.
+if arraytype is object then default is NULL is stored reference address.
+
+Exception Handling 
+
+TRY, CATCH, Finally
+
+Try block contains the code which may cause exception.
+Catch block catches the exception occured in try block and throws it t with Exception message. 
+finally is a block in Java, it executes anyway.
+
+Collection Frameworks 
+Combination of interface, implementation and Algorithms.
+can be set, list and map.
+
+Arraylist
+	Collection of item, 
+same elements allowed	, 
+Ordering/sorting(FCFS)
+
+
+List<String> list = new ArrayList<>();
+	list.add("AA");
+	list.remove(1);
+	System.out.println(list);
+	list.set(1,"22222222222");
+	System.out.println(list);
+
+HashSet 
+Collection of items that uses a hash table for storage
+No copy of elements allowed.
+Ordering/sorting OF Elements internally
+
+Set<Integer> l2  = new HashSet<>();
+	l2.add(11);// convert int to Integer -> Boxing 
+	System.out.println("hashset:   "+l1);
+
+HashMap
+Store items in key/value pairs, 
+Duplicates not excepted
+	Ordering/sorting OF Elements internally
+
+
+Map<String,Integer> map =new TreeMap<>();
+		map.put("RAM", 60);
+				System.out.println(map);
+	
+MultiThreading 
+spliting work  into threads assigning each with equal amount of time.
+Time slicing 
+extend Thread class.
+ create object of thread and can call start() , run(), sleep() ,methods
+class overrides the run() method available in the Thread class.
+ start() --method to start the execution of a thread..
+ Run()--A thread begins with run() method. 
+sleep()--Causes the recently executing thread to sleep(stop executing ) for the specified number of milliseconds
+
+
