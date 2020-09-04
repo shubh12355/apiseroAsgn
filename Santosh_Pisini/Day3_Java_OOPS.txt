@@ -1,0 +1,82 @@
+Day 3, Day 4   -  OOP(Core Java)	
+
+Java Fundamentals – Quick View
+
+-> Java is platform-independent
+-> javac to get .class file
+-> java .class file to get executable
+-> JVM converts byte code to machine code
+-> A separate file is created for a compiled program. 
+-> JRE is platform dependent
+
+-> By default non-extended classes extend object class
+
+--> If we have more classes in a single file various class files are created after javac ==> Recommended using a single file for a single class.
+
+PACKAGE:
+-> To avoid naming collision
+-> Code maintainability
+
+ ACCESS MODIFIER:
+                                  SAME PACKAGE               DIFF PACKAGE
+                    SAME CLASS  SUBCLASS  NON-SUBCLASS   SUBCLASS  NON-SUBCLASS
+-> DEFAULT          YES          YES       YES            NO          NO
+-> PRIVATE          YES          NO        YES            NO          NO         
+-> PROTECTED        YES          YES       YES            YES         NO
+-> PUBLIC           YES          YES       YES            YES         YES
+
+ STATIC:
+-> Shared among all the instances of the class
+-> Memory allocation happens only once when the class is loaded in the memory.
+
+ARRAY
+-> Same datatype
+-> Contiguous allocation
+-> Lenght is required at time of the creation
+-> Random access is possible
+
+==> Java always passes by value 
+
+ABSTRACT:
+==>Class:
+-> Can't instantiated
+-> Use when you want inheritance with STATIC
+-> No restriction to have an abstract method.
+-> Can contain common abstract and final methods
+==>Method: 
+-> No-body in the superclass
+-> Extending class need to define this method
+-> If the abstract method is their then the class has to be abstract
+	
+FINAL:
+=>Class:
+-> To stop overriding by the base class
+-> Can't be parent class
+=>Method:
+-> Can't override this methods.
+
+INTERFACE:
+-> One interface can be implemented by many classes
+-> A class can implement many interfaces.
+-> Can create an object of the class with interface reference
+-> No data variables, actual methods
+-> Only abstract methods
+
+COLLECTIONS API (List, Set, Map)
+==> Dynamic Size <==
+ArrayList:
+-> Duplicates excepted
+-> Ordering/sorting(FCFS)
+
+HashSet:
+-> Collection of items that uses a hash table for storage
+-> No Duplicates excepted
+-> Ordering/sorting by the hash function
+
+HashMap:
+-> Store items in key/value pairs, and you can access them by an index of another type String ).
+-> No Duplicates excepted
+-> Ordering/sorting by the hash function
+
+THREADS:
+-> Concurrent execution of two or more parts of a program
