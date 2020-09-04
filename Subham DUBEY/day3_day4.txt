@@ -1,0 +1,17 @@
+Features of Java
+-> Simple - Syntax is quite simple, easy and clean to understand.
+-> Object Oriented - It follows a structural form giving more emphasis on data.
+-> Robust - It tries to eliminate error prone codes by emphasizing compile time error checking and runtime checking.
+-> Platform Independent - It is compiled to byte code which is converted to machine code according to the platform it is oprating on.
+-> High Performance - It is an interpreted language. It enables high performance using just in time compiler.
+
+Varaibles in Java
+-> It is a name used to store a value of any type during data execution.
+Types of Variables 
+-> Instance Variables - It can be declared inside a class but outsode any method, constructor or block. Thw scope depends on the access modifiers (public, private, default).
+-> Static Variables - These are also called as class variables. These are initialized only once.
+-> Local Variables - These are declared in method, constructor or block. The scope is limited to the block in which it is declared.
+
+Data Types in Java
+-> Primitive Data type - Once it is declared its type cannot be changed. There are 8 primitive data types. They are: char, boolean, byte, short, int, long, float, double.
+-> Non-Primitive Data type - A reference variable is declared to be specific and that type can never be changed. Ex: String.
