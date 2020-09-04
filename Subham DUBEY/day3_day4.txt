@@ -15,3 +15,28 @@ Types of Variables
 Data Types in Java
 -> Primitive Data type - Once it is declared its type cannot be changed. There are 8 primitive data types. They are: char, boolean, byte, short, int, long, float, double.
 -> Non-Primitive Data type - A reference variable is declared to be specific and that type can never be changed. Ex: String.
+
+OOPS Concepts
+-> Class
+- It is a set of varables and methods. 
+- It is basically a blueprint that the object follows.
+- The data can't be accessible to everyone. One who has the access to the methods will have the permission to work and modify the data. Thus, there cannot be modifications of the data from outside.
+-> Object
+- Object is nothing but the instance of the class.
+- It is the object which acts as the medium of communication between two classes.
+-> Encapsulation
+- It binds one or more instances into one entity.
+-> Abstraction
+- This helps in hiding the important instance like the business logic from the public. It only displays limited information to its viewers.
+-> Inheritance
+- Here the information of the instances are stored as separate instances. The common data is stored as the main primary instance which the remaining subset as stored as the extension of the primary instance. One of the problem is that the sub instance is tightly coupled with the primary instance.
+-> Polymorphism
+- As the name suggests the data can be morphed or represented in many multiple forms.
+
+Array
+Abstract Class
+Final Class
+Interface
+Exception Handling
+Collection Framework
+Multithreaded process
