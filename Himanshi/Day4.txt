@@ -1,0 +1,54 @@
+	# Day 4 :
+	
+	• Class - abstract class /Final class
+	• Abstract class :
+		- Cant crete instance of abstract class
+		- Create class either for- inheritance , use any static method from abstract class.
+		- Can be used for inheritance.
+		- Cancontain abstarct method +normal method.
+	• Abstract method :
+		- It should be a part of abstract class.
+		- Derived class give explanation(override abstarct method in parent abstarct classs) of abstract method which is in parent abstarct class.
+		- Nowwe can make obj of derived class and call method on it.
+		- -used only when We cant usually make an obj of an class and we want ot use an inheritance.
+	• Final class :
+		- Create class - only use it.
+		- Can create instance of class
+		- Final class cant be extended.
+	• Final Method :
+		- Final method cant be overrriden.
+		
+	• One java class can't extend multiple java classes
+	• Interface : 
+		- Cant create obj of interface. But have pointer of interface pointing to class.
+		- Can contain only abstarct method.
+		- You have to write a class which will implement this interface.
+		Now you can create instance of this class.Here in this class you can also provide mthod bidy to your abstract method .
+		- Multiple class can implement interface and have diffe functionalities for abstract emthod in inetrface.
+		- No data var,no actual methods, only abstract methods.
+		- Implement interface- write code for all inetrface mehtods.
+	• We cannot overload oon return type.
+	• Exception Handling :
+		- Whate evr code you thin might give an error , put in tin try catch block.
+		- You can throw that exception using throw.
+		- Multiple stmt can be written in try stmt and catch them in one stmt.
+		- We cant explicitly throw custom exception using throw.
+		- Recommended : try-catch block.
+		- Lab5 example.
+	• Collections Framework:
+		- Collection of interfaces
+		- We have  already made list,stack,queue etc by java.We can just use them asitis.
+		- List
+		- Set
+		- Map
+	• Threads :
+		- We can have multiple processes running in backgroud.
+		- For each process ,there are many things have to be done like
+		Garbage collection,jvm.
+		- So,wheneevr we have to do multiple execution .we think of thread.
+		- JVM anytime is multithreaded system.
+		- Class extends Threads
+		- Thread is predefined class given by java.
+		- Thread claas only recognize run mthos which needs to be overrided.
+		- Call obbj.start();
+		- Thread.sleep(//1000ms)-after 1000 ms rest of code will be exceuted
