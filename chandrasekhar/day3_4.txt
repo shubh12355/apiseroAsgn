@@ -11,7 +11,8 @@
   Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand.
 
 -----------Inheritance----------
-  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.The class which is inherted by other is known as 'parent class'       and derived class is known as 'Sub class'.
+  ->Inheritance is the process by which objects of one class acquire the properties of objects of another class.
+  ->The class which is inherted by other is known as 'parent class'and which inherites properties from other class is known as 'Sub class'.
 
 ----------Abstract class----------
   ->Abstract class in java is a class which is declared using abstract keyword.
